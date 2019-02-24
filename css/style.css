@@ -1,4 +1,102 @@
+/* base styles */
+a {
+  text-decoration: none;
+  color: rgb(163, 124, 99);
+}
+body {
+  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+ *{
+  /* outline: dotted red 2px; */
+ }
+/* site styles */
+
+header {
+  background-color: black;
+  height: 50px;
+}
+
+header section {
+  margin: 0 auto;
+  width: 960px;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+header nav li{
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main {
+  width: 960px;
+  margin: 10px auto;
+}
+
 .my-photo {
+  width: 100%;
+  height: 100%;
+}
+
+.box-photo {
+  width: 20%;
+  float: left;
+  height: 150px;;
+}
+
+main section:nth-child(2) {
+  float: left;
+  width: 70%;
+  height: 150px;;
+  margin-left: 10px; 
+}
+
+main section:last-child {
+  clear: left;
+  width: 90%;
+  height: 500px;;
+  margin-left: 10px; 
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 200;
+}
+p {
+  margin: 5px;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+ol li {
+  margin-left: 10px;
+}
+
+
+/* ----------------------------------------------------------------- */
+/* .my-photo {
   width: 100%;
   height: 25%;
 }
@@ -38,9 +136,6 @@ h2 {
 p {
   margin: 5px;
 }
-body {
-  background-color: aqua;
-}
 
 div {
   width: 100%;
@@ -56,4 +151,4 @@ ol {
   list-style-type: decimal;
   margin-left: 20px;
   margin-top: 10px;
-}
+} */
